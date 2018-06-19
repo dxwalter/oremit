@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.036 24.802">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 5px;
+      }
+
+      .cls-1 {
+        stroke: #3c3;
+      }
+
+      .cls-2 {
+        stroke: #faab1a;
+      }
+
+      .cls-3 {
+        stroke: #02a0e1;
+      }
+
+      .cls-4 {
+        stroke: #0c4a6d;
+      }
+    </style>
+  </defs>
+  <g id="Group_72" data-name="Group 72" transform="translate(-99.732 -313.232)">
+    <line id="Line_2" data-name="Line 2" class="cls-1" x2="19.333" y2="19.333" transform="translate(101.5 315.967)"/>
+    <line id="Line_4" data-name="Line 4" class="cls-2" x1="21.267" y2="21.267" transform="translate(117.933 315)"/>
+    <line id="Line_5" data-name="Line 5" class="cls-3" x2="21.267" y2="21.267" transform="translate(135.333 315)"/>
+    <line id="Line_6" data-name="Line 6" class="cls-4" x1="21.267" y2="21.267" transform="translate(152.733 315)"/>
+  </g>
+</svg>

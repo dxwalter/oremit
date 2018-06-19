@@ -1,827 +1,589 @@
-@font-face {
-    font-family: 'Mont Serat Bold';
-    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+::root {
+    --robotoFont: 'Roboto Condensed', sans-serif;
+    --lobsterFont: 'Lobster', cursive;   
+    --dancingFont: 'Dancing Script', cursive; 
 }
-
 @font-face {
-    font-family: 'Mont Serat Medium';
-    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+  font-family: "Bebas";
+  src: url("../webfonts/BebasNeue-Regular.ttf");
 }
-
 @font-face {
-    font-family: 'Font Awesome 5 Free Solid, Book';
-    src: url(../fonts/Font-Awesome-5-Free-Solid-900.otf);
-}
-
-
-@font-face {
-    font-family: 'Mont Serat Regular';
-    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Mont Serat Semi Bold';
-    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: 'Mont Serat Extra Bold';
-    src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
-}
-
-@font-face {
-    font-family: 'OpenSans Regular';
-    src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'OpenSans Bold';
-    src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'OpenSans SemiBold';
-    src: url(../fonts/OpenSans/OpenSans-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: 'OpenSans Italic';
-    src: url(../fonts/OpenSans/OpenSans-Italic.ttf);
-}
-
-@font-face {
-    font-family: 'Quicksand Bold';
-    src: url(../fonts/Quicksand/Quicksand-Bold.otf);
+  font-family: "Avenir";
+  src: url("../webfonts/AvenirLTStd-Book.otf");
 }
 body {
-    widows: 100%;
-    height: 100vh;
-    position: relative;
+    padding: 0;
+    margin: 0;
 }
-.firstBody {
-    background-color: rgba(35, 42, 51, 1);
-    padding-top: 20px;
-}
-.parentHeader {
+.oremitContainer {
     width: 100%;
-    height: auto;
-    background-color:inherit;
-    margin: 0 auto;
-}
-.rinaLogo {
-    width: 90px;
-    margin-left: 12px;
-    height: 30px;
-    float: left;
-}
-.rinaLogo > img{
-    width: 100%;
-    height: 100%:
-}
-.buyButtonDiv {
-    float: right;
     height: inherit;
+    margin: 0 auto;
+}
+.bannerContainer {
+    width: 100%;
+    min-height: 100vh;
+    max-height: inherit;
+    background-image: url(../images/banner/city2.jpg);
+    background-size: cover; 
+}
+.bannerColor {
+    background: rgba(23, 39, 52, 0.7);
+    min-height: 100vh;
+    max-height: inherit;
+    width: 100%;
+}
+.bannerContent {
+    width: 100%;
+    height: inherit;
+    padding-top: 0px;
+    margin: 0 auto;
+}
+.navContainer {
+    width: 100%;
+    height: inherit;
+    padding-top: 0px;
+    margin: 0 auto;
+}
+.navColor {
+    color: #fff !important;
+}
+.quote {
+    background-color: #fff !important;
     width: auto;
-    background-color: inherit;
-    padding-top: 8px;
-    margin-right: 10px;
+    height: 100%;
+    color: #132139 !important;
+    border-radius: 2px;
+    font-family: "Bebas";
 }
-.buyButton {
-    background-color: #666a71;
-    height: 44px;
-    width: 100px;
-    padding: 8px 26px 8px 26px;
-    border-radius: 51px 51px 51px 51px;
-    font-size: 12px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-    font-family: Open Sans, Regular;
+.intro-body {
+    padding-left: 0;
 }
-.buyButton:hover {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
+.btext {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
-.bodyText {
-    width: 100%;;
-    height: auto;
+.btext2 {
     margin: 0 auto;
-    background-color: inherit;
-    margin-top: 100px;
-}
-.b1Text > h1 {
-    font-size: 28px;
-    height: 79px;
-    padding: 4px;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
     text-align: center;
-    font-family: Catamaran, Regular;
-    color: rgba(255, 255, 255, 1);
-    margin: 0 auto;
+    width: 50%;
 }
-.b2Text {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    font-family: Open Sans, Regular;
-    margin-top: 7px;
-    font-size: 14px;
-    padding: 6px;
-    color: rgba(255, 255, 255, 1);
+.hidden-sm {
+    display: none;
+}
+.intro1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 20px;
     text-align: center;
+    text-transform: uppercase;
+    font-family: "Bebas";
 }
-.buttonArea {
-    margin: 0 auto;
-    margin-top: 13px;
-    width: 90%;
-    height: auto;
-}
-.mainForm {
-    width: 100%;
-    height: 50px;
-    border-radius: 51px 51px 51px 51px;
-    font-size:15px;
-    text-align: left;
-    color: rgba(35, 42, 51, .6);
-    padding: 13px 16px 16px;
-    border: 0px;
-}
-.buttonArea > .row .col-sm-4{
-    margin-top: 5px;   
-}
-.sbButton {
-    width: 100%;
-    height: 36px;
-    background-color: rgba(77, 222, 217, 1);
-    border-radius: 51px 51px 51px 51px;
-    font-size: 17px;
-    text-align: left;
-    color: rgba(35, 42, 58, 1);
-    border: 0px;
-    text-align: center;
-    cursor: pointer;
-}
-.footerText {
-    width: 87%;
-    height: 19px;
-    margin: 0 auto;
-    font-family: Open Sans, Regular;
-    color: rgba(255, 255, 255, 1);
-    font-size: 13px;
-    text-align: center;
-    padding-top: 20px;
-}
-.rinaPayFooter {
-    width: 100%;
-    height: 20px;
+.intro2 {
+    font-family: 'Avenir';
+    color: #ffffff;
     font-size: 15px;
-    color: rgba(255, 255, 255, .7);
     text-align: center;
-    margin: 0 auto;
-    padding-top: 58px;
-    padding-bottom: 50px;
+    line-height: 200%;
+    text-transform: capitalize;
+    padding: 20px;
 }
-
+.colorit {
+    color: #09AEEC;
+    text-align: center;
+}
+.waveDiv {
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.waveDiv > img {
+    display: block;
+    width: 40px;
+    margin: 0 auto;
+}
+.nextArrow {
+    width: 50px;
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+}
 @media (min-width: 576px) {
-.firstBody {   
-    padding-top:20px;
-}
-.parentHeader {
-    width: 96%;
-    height: auto;
-    background-color:inherit;
+.intro1 {
+   color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Bebas";
+    width: 80%;
     margin: 0 auto;
 }
-.rinaLogo {
-    width: 107px;
-    height: 54px;
+.intro2 {
+    font-family: 'Avenir';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 200%;
+    width: 80%;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.hidden-sm {
+    display: inherit;
+}
+.visible-sm {
+    display: none;
+}
+}
+@media (min-width: 768px) {
+.navContainer {
+    width: 90%;
+    height: inherit;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.intro1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Bebas";
+    width: 100%;
+    margin: 0 auto;
+}
+.waveDiv {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 10px;
     float: left;
 }
-.rinaLogo > img{
-    width: 100%;
-    height: 100%:
-}
-.buyButtonDiv {
-    float: right;
-    height: inherit;
-    width: auto;
-    background-color: inherit;
-    padding-top: 15px;
-}
-.bodyText {
-    width: 81%;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 121px;
-}
-.b1Text > h1 {
-    font-size: 33px;
-    height: 79px;
-    text-align: center;
-    font-family: Catamaran, Regular;
-    color: rgba(255, 255, 255, 1);
+.waveDiv > img {
+    display: auto;
+    width: 40px;
     margin: 0 auto;
 }
-.b2Text {
-    width: 100%;
-    height: auto;
-    margin-top: 7px;
-    font-size: 16px;
-}
-.buttonArea {
-    margin: 0 auto;
-    margin-top: 53px;
-    width: 100%;
-    height: auto;
-}
-.mainForm {
-    width: 100%;
-    height: auto;
-    border-radius: 51px 51px 51px 51px;
-    font-size: 16px;
+.intro2 {
+    font-family: 'Avenir';
+    color: #ffffff;
+    font-size: 15px;
     text-align: left;
-    color: rgba(35, 42, 51, .6);
-    padding: 11px 25px 15px;
-    border: 0px;
-
-}
-.sbButton {
-    width: 100%;
-    height: auto;
-    background-color: rgba(77, 222, 217, 1);
-    border-radius: 51px 51px 51px 51px;
-    font-size: 16px;
-    text-align: center;
-    color: rgba(35, 42, 58, 1);
-    padding: 9px 0px 15px;
-
-}
-.buttonArea > .row .col-sm-4{
-    margin-top: 3px;   
+    line-height: 200%;
+    text-transform: capitalize;
+    clear: both;
+    margin: 0;
+    width: 70%;
 }
 }
 @media (min-width: 992px) {
-.firstBody {
-    padding-top: 37px;
+.navContainer {
+    width: 80%;
+    padding-top: 40px;
 }
-.parentHeader {
-    width: 894;
-    height: auto;
-    background-color:inherit;
-    margin: 0 auto;
+.intro1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 0px;
 }
-    
+.intro2 {
+    font-family: 'Avenir';
+    color: #EAE6E6;
+    font-size: 22px;
+    line-height: 150%;
+    width: 37%;
 }
-
+}
 @media (min-width: 1200px) {
-.firstBody {
-    padding-top: 37px;
+.navContainer {
+    width:75%;
+    padding-top: 40px;
 }
-.parentHeader {
-    width: 1087px;
-    height: auto;
-    background-color:inherit;
-    margin: 0 auto;
+.intro1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 54px;
+    margin-top: 0px;
+    padding-top: 40px;
 }
-.rinaLogo {
-    width: 107px;
-    height: 54px;
-    float: left;
+.intro2 {
+    width: 43%;
 }
-.rinaLogo > img{
+}
+.serviceContainer {
     width: 100%;
-    height: 100%:
-}
-.buyButtonDiv {
-    float: right;
     height: inherit;
-    width: auto;
-    background-color: inherit;
-    padding-top: 15px;
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
-.buyButton {
-    background-color: #666a71;
-    height: 44px;
-    width: 138px;
-    padding: 12px 30px 12px 30px;
-    border-radius: 51px 51px 51px 51px;
-    font-size: 15px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-    font-family: Open Sans, Regular;
+.serviceHeader {
+     font-family: 'Roboto Condensed', sans-serif
+     font-size: 20px;
+     font-weight: bold;
+     color: #8E8E8E;
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
 }
-.buyButton:hover {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
-.bodyText {
-    width: 100%;;
-    height: auto;
+.headerImg {
     margin: 0 auto;
-    background-color: inherit;
-    margin-top: 194px;
+    width: 70px;
+    height: 70px;
 }
-.b1Text > h1 {
-    font-size: 48px;
-    height: 79px;
-    text-align: center;
-    font-family: Catamaran, Regular;
-    color: rgba(255, 255, 255, 1);
-    margin: 0 auto;
-}
-.b2Text {
-    width: 698px;
-    height: 62px;
-    margin: 0 auto;
-    font-family: Open Sans, Regular;
-    margin-top: 17px;
-    font-size: 20px;
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
-}
-.buttonArea {
-    margin: 0 auto;
-    margin-top: 53px;
-    width: 710px;
-    height: 60px;
-}
-.buttonArea > .row .col-sm-8{
-    width: 492px;
-}
-.buttonArea > .row .col-sm-4{
-    width: 191px;
-}
-.mainForm {
+.headerImg img {
+    display: block;
     width: 100%;
-    height: 60px;
-    border-radius: 51px 51px 51px 51px;
-    font-size: 20px;
-    text-align: left;
-    color: rgba(35, 42, 51, .6);
-    padding: 13px 39px 16px;
-    border: 0px;
+    height: 100%;
+
 }
-.sbButton {
-    width: 100%;
-    height: 60px;
-    background-color: rgba(77, 222, 217, 1);
-    border-radius: 51px 51px 51px 51px;
-    font-size: 20px;
-    text-align: left;
-    color: rgba(35, 42, 58, 1);
-    border: 0px;
-    padding: 13px 39px 16px;
-    cursor: pointer;
+.headerTitle {
+    text-align: center;
+    font-size:25px;
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize; 
 }
-.footerText {
-    width: 312px;
-    height: 19px;
+@media(min-width: 576px) {
+.headerTitle {
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+}    
+}
+.serviceTypeContainer {
+    width: 90%;
+    height: inherit;
     margin: 0 auto;
-    font-family: Open Sans, Regular;
-    color: rgba(255, 255, 255, 1);
-    font-size: 14px;
+    margin-top: 40px;
+}
+.mainContainer {
+    margin: 19px 0;
+}
+.solarImage {
+    background-image: url(../images/indexService/bannerImage2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imageDiv {
+    height: 410px;
+    text-align: left;
+}
+.opacityMajor {
+    height: 100%;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    padding: 175px 35px;
+}
+.opacityLayer1 {
+    background: rgba(182, 52, 51, 0.65);
+}
+.serviceContentHeader {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.opacityMajor {
+    height: 100%;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    padding: 90px 10px;
+}
+.minorText {
+    font-size: 16px;
+    font-family: "Avenir";
     padding-top: 10px;
-}
-.rinaPayFooter {
-    width: 148px;
-    height: 20px;
-    font-size: 15px;
-    color: rgba(255, 255, 255, .7);
-    text-align: center;
-    margin:  0 auto;
-    padding-top: 100px;
-}
-}
-.secondBody {
-    background-color: rgba(248, 249, 252, 1);
-    width: 100%;
-    height: 100vh;
-    padding-top: 10px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-.paymentContainer {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 12px 12px 12px 12px;
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0px 0px 45px rgba(51, 51, 51, 0.22);
-}
-.paymentLogo {
-    width: 98px;
-    height: 54px;
-    margin: 0 auto;
-}
-.paymentLogo img{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-.lockIcon {
-    width: 9.6px;
-    height: 12.6px;
-    color: rgba(191, 191, 191, 1);
-    font-size: 10px;
-}
-.secondLayer {
-    width: 100%;
-    height: 90px;
-    border-bottom: 1px solid rgba(248, 249, 252, 1);
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 24px;
-    padding-bottom: 26px;
-}
-.firstlayer {
-    width: 100%;
-    height: 106px;
-    border-bottom: 1px solid rgba(248, 249, 252, 1);
-    padding-top: 16.39px;
-    padding-left: 16.04px;
-    padding-right: 16.04px;
-}
-.textTitle {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-}
-.leftTextBig {
-    width: 105px;
-    height: 20px;
-    font-size: 15px;
-    text-align: left;
-    font-family: Segoe UI, SemiBold;
-    color: rgba(47, 53, 61, 1);
-}
-.rightTextBig {
-    width: 105px;
-    height: 20px;
-    font-size: 15px;
-    margin-left: auto;
-    font-family: Font Awesome 5 Free Solid, Book;
-}
-.textTitle2 {
-    margin-top: 3px;
-    width:100%;
-    height: 16px;
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    margin-bottom: 26px;
-}
-.innerLeft1 {
-    min-width: 102px;
-    height: 17px;
-    font-size: 13px;
-    font-family: Segoe UI, Regular;
-    max-width: inherit;
-    text-align: right;
-}
-.innerLeft2 {
-    margin-top: 2px;
-    min-width: 88px;
-    max-width: inherit;
-    margin-left: auto;
-    font-family: Segoe UI, Regular;
-    font-size: 13px;
-    text-align: left;
-}
-.textTitle3 {
-    width: 100%;
-    height: 65px;
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    flex-direction: row;
-    border-top: 1px solid rgba(248, 249, 252, 1);
-    justify-content: space-between;
-}
-.textTitle3 a:first-child{
-    display: block;
-    padding: 24px 1px 20px 2px;
-    text-align: center;
-    width: 183px;
-    color: rgba(100, 100, 100, 1);
-    font-size: 13px;
-}
-.textTitle3 a:last-child{
-    /*padding: 18px 0px 0px 13px;*/
-    padding: 24px 1px 20px 2px;
-    display: block;
-    /*line-height: 14px;*/
-    text-align: center;
-    width: 183px;
-    color: rgba(100, 100, 100, 1);
-    font-size: 13px;
-}
-.textTitle3 a:hover{
-    color: rgba(0, 151, 198, 1);
-    border-bottom: 1px solid rgba(0, 151, 198, 1);
-    text-decoration: none;
-}
-.bitHash {
-    width: 100%;
-    height: 69px;
-    background-color: rgba(248, 249, 252, 1);
-    text-align: center;
-    padding-top: 25px;
-    font-size: 15px;
-    font-family: Font Awesome 5 Free, Semibold;
-    color: rgb(35, 42, 58, 1);
-}
-.bitHash > i {
-    color: rgba(0, 151, 198, 1);
-    font-size: 15px;
-    -webkit-text-fill-color: #fff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 151, 198, 1);
-    padding-left: 2px;
-}
-.infoIcon {
-    color: rgba(100, 100, 100, .8);
-    font-size: 15px;
-    -webkit-text-fill-color: #fff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(100, 100, 100, .8);
-    padding-top: 2px;
-}
-.bitcoinQR {
-    width: 100%;
-    height: 85px;
-    background-color: rgba(255, 255, 255, 1);
-    display: grid;
-    grid-template-columns: 70px auto;
-    grid-template-rows: 70px;
-    grid-gap: 2px;
-    padding: 5px 13px 23px 5px;
-}
-.btQRcode {
-    width: 100%;
-    height: 100%;
-}
-.btQRcode > img{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-.btDetails {
-    display: grid;
-    grid-template-columns: 207px 14px;
-    grid-template-rows: 32px 29px;
-    grid-row-gap: 2px;
-    grid-column-gap: 2px;
-}
-.transactDetails {
-    font-size: 14px;
-    font-family: Segoe UI, Regular;
-    text-align: left;
-    color: rgba(100, 100, 100, .8);
-}
-.transTime {
-    color: rgba(38, 38, 38, .8);
-    width: 135px;
-    text-align: left;
-    font-size: 26px;
-}
-.authMsg {
-    font-family: Segoe UI, Bold;
-    font-size: 11px;
-    height: 46px;
-    width: 100%;
-    background-color:  rgba(77, 222, 217, 1);
-    color: rgba(255, 255, 255, 1);
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-align: center;
-}
-.infoDiv {
-    color: rgba(35, 42, 51, 1);
-    text-align: center;
-    display: block;
-    font-size: 11px;
-    font-family: Segoe UI, Bold;
-    padding-top: 14px;
-    padding-bottom: 13px;
-}
-.infoDiv:hover {
-    text-decoration: none;
-}
-.footerText {
-    width: 100%
-    margin-top:26px;
-    margin-bottom:26px;
-    text-align: center;
-    color: rgba(35, 42, 51, 1);
-    font-size: 15px;
-    height: 20px;
-    font-family: Open Sans, Regular;
-}
-@media (min-width: 444px)
-{
-.secondBody {
-    padding-top: 55px;
-    padding-left: 0px;
     padding-right: 0px;
 }
-.paymentContainer {
-    width: 386px;
+.minorText3 {
+    font-size: 16px;
+    font-family: "Avenir";
+    padding-top: 10px;
+    padding-right: 0px;
 }
-.textTitle {
+.minorText2 {
+    font-size: 16px;
+    font-family: "Avenir";
+    padding-top: 5px;
+    padding-right: 9px;
+}
+.buttonArea {
+    padding-left: 14px;
+    padding-top: 24px;
+}
+@media(min-width: 576px) {
+.opacityMajor {
+    height: 100%;
+    height: 100%;
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex: 1;
+    color: #fff;
+    padding: 120px 35px;
 }
-/*.leftTextBig {
-    width: 105px;
-    height: 20px;
-    font-size: 15px;
-    text-align: left;
-    font-family: Segoe UI, SemiBold;
-    color: rgba(47, 53, 61, 1);
+.minorText {
+    font-size: 16px;
+    font-family: "Avenir";
+    padding-top: 10px;
+    padding-right: 100px;
 }
-.rightTextBig {
-    width: 105px;
-    height: 20px;
-    font-size: 15px;
-    margin-left: auto;
-    font-family: Font Awesome 5 Free Solid, Book;
-}*/
-.textTitle3 {
-    width: 100%;
-    height: 65px;
-    line-height: 0;
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    flex-direction: row;
-    border-top: 1px solid rgba(248, 249, 252, 1);
-    justify-content: space-between;
+.minorText2 {
+    font-size: 16px;
+    font-family: "Avenir";
+    padding-top: 5px;
+    padding-right: 9px;
 }
-.textTitle3 a:first-child{
-    display: block;
-    padding: 30px 16px 24px 10px;
-    text-align: center;
-    width: 183px;
-    color: rgba(100, 100, 100, 1);
-    font-size: 13px;    
-}
-.textTitle3 a:last-child{
-    padding: 30px 12px 24px 10px;
-    display: block;
-    text-align: center;
-    line-height: 0;
-    width: 183px;
-    color: rgba(100, 100, 100, 1);
-    font-size: 13px;
-    font-weight: 600;
-}
-.activeLink, .textTitle3 a:hover{
-    color: rgba(0, 151, 198, 1);
-    border-bottom: 1px solid rgba(0, 151, 198, 1);
-    text-decoration: none;
-}
-.bitcoinQR {
-    width: 100%;
-    height: 147px;
-    background-color: rgba(255, 255, 255, 1);
-    display: grid;
-    grid-template-columns: 100px 238px;
-    grid-template-rows: 100px;
-    grid-gap: 16px;
-    padding: 24px 13px 23px 16px;
-}
-.btDetails {
-    display: grid;
-    grid-template-columns: 214px 14px;
-    grid-template-rows: 45px 35px;
-    grid-row-gap: 21px;
-    grid-column-gap: 10px;
-}
-.transactDetails {
-    font-size: 14px;
-    font-family: Segoe UI, Regular;
-    text-align: left;
-    color: rgba(100, 100, 100, .8);
-}
-.transTime {
-    color: rgba(38, 38, 38, .8);
-    width: 135px;
-    text-align: left;
-    font-size: 26px;
-}
-.footerText {
-    width: 100%
-    margin-top:26px;
-    margin-bottom:0px;
-    text-align: center;
-    color: rgba(35, 42, 51, 1);
-    font-size: 15px;
-    height: 20px;
-    font-family: Open Sans, Regular;
-}
-}
-.modalInfo {
-    width: 311px;
-    height: 131px;
-    border-radius: 12px 12px 12px 12px;
-    box-shadow: 0px 0px 45px rgba(51, 51, 51, 0.22);
-    padding-left: 21px;
-    padding-right: 20px;
-    padding-top: 15.4px;
-    padding-bottom: 14.6px;
-    color: rgba(100, 100, 100, .8);
-    font-size: 13px;
-    font-family: Segoe UI, Regular;
-    background-color: rgba(248, 249, 252, 1);
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: none;
-}
-.hideDiv {
-    display: none;
-}
-.auth {
-    width: 100%;
-    height: 69px;
-    background-color: rgba(248, 249, 252, 1);
-    flex-direction: row;
-    display: flex;
-}
+.minorText3 {
+    font-size: 16px;
+    font-family: "Avenir";
+    padding-top: 10px;
+    padding-right: 100px;
 
-.auth  > div:first-child{
-    font-size: 15px;
-    color: rgba(35, 42, 58, 1);
-    font-family: Segoe UI, Regular;
-    padding-bottom: 24px;
-    padding-top: 25px;
-    text-align: left;
-    padding-left: 16px;
 }
-.auth  > div:last-child{
-    font-size: 15px;
-    text-align: right;
-    padding-bottom: 24px;
-    padding-top: 25px;
-    text-align: left;
-    padding-right: 16px;
-    color: rgba(0, 151, 198, 1);
-    margin-left: auto;
 }
-.timerDiv {
+@media(min-width: 992px) {
+.minorText3 {
+    font-size: 16px;
+    font-family: "Avenir";
+    padding-top: 10px;
+    padding-right: 400px;
+
+}
+}
+.inverterImage {
+    background-image: url(../images/indexService/inverter.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.opacityLayer2 {
+    background: rgba(18, 31, 40, 0.65);
+}
+.officeEquipment {
+    background-image: url(../images/indexService/officeEquipment.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.opacityLayer3 {
+    background: rgba(115, 0, 153, 0.65);
+}
+.cctvCameraImg {
+    background-image: url(../images/indexService/cctv.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.opacityLayer4 {
+    background: rgba(82, 187, 235, 0.65);
+}
+.opacityLayer5 {
+    background: rgba(28, 28, 28, 0.65);
+}
+.oilGas {
+    background-image: url(../images/indexService/oil.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.valuesContainer {
+    background-image: url(../images/banner/bbb.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.valueOpacity {
+    background: rgba(0, 25, 64, 0.8);
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: inherit;
+}
+.colorWhite {
+    color: #fff;
+}
+.valueMananger {
+   margin: 0 auto;
+   width: 100%; 
+   height: inherit;   
+   margin-top: 20px;
+}
+@media(min-width: 576px) {
+.valueMananger {
+   margin: 0 auto;
+   width: 90%;
+   margin-top: 20px;
+}
+}
+.valueContent {
+    width: 98%;
+    margin: 0 auto;
+    height: 370px;
+    background: rgba(250, 250, 250, .8);
+    border-bottom: 8px solid red;
+    margin-bottom: 20px;
+}
+.valueHeader {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Bebas';
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 24px;
-    color: rgba(38, 38, 38, .8);
-    font-size: 26px;
-    font-family: Segoe UI, Semibold;
-    border-bottom: 1px solid rgba(248, 249, 252, 1);
+    color: #09AEEC;
 }
-.payBtn {
-    padding-top: 15px;
+.valueMessage {
+    margin-top: 5px;
+    font-size: 17px;
+    text-align: center;
+    color: #000;
+    font-family: 'Avenir';
+    padding: 30px;
+}
+.partnersContainer {
+    width: 100%;
+    height: inherit;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+.partnerIcon {
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 40px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #09AEEC;
+}
+@media (min-width: 576px) {
+.partnerIcon {
+    font-size: 70px;
+}
+}
+.hireDiv {
+    width: 100%;
     height: inherit;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
-.buyBigButton {
-    width: 141px;
-    height: 46px;
-    border-radius: 23px 23px 23px 23px;
-    background-color: rgba(35, 42, 51, .17);
-    color: rgba(35, 42, 51, .3);
-    border: 0;
-    font-size: 13px;
-    font-family: Segoe UI, Bold;
-    cursor: pointer;
+.hireDiv > button {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        display: block;
 }
-.amountCarrier {
-     padding-top: 24px;
-     padding-left: 16px;
-     padding-right: 16px;
-     width: 100%;
-     height: inherit;
+
+/* Footer */
+
+textarea {
+    resize: none;
 }
-.walletAmount {
-    width: 100%;
-    border: 1px solid rgba(220, 221, 222, 1);
-    border-radius: 19px 19px 19px 19px;
+
+#footer {
+    margin-top: 100px;
+}
+
+.footer-img {
+    background-image: url('../images/contact-bg.png');
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 91px 0px;
+}
+
+.footer-div1 {
+    background: #F1F1F1;
+    height: 530px;
+    padding: 70px 100px;
+}
+
+.footer-div2 {
+    background: #474747;
+    height: 530px;
+    padding: 150px 40px;
+}
+
+.footer-div2>div {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.footer-div2>div>a {
+    color: #fff;
+}
+
+.contact {
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+}
+
+.contact-div {
+    margin: 14px 0px;
+}
+
+.contact.form-control::-webkit-input-placeholder {
+    color: #474747;
+}
+
+.contact.form-control::-moz-placeholder {
+    color: #474747;
+}
+
+.contact.form-control:-ms-input-placeholder {
+    color: #474747;
+}
+
+.contact.form-control:-o-input-placeholder {
+    color: #474747;
+}
+
+.footer-bottom {
+    color: #707070;
+    margin: 30px 0;
     text-align: center;
-    padding-top: 11px;
-    padding-bottom: 9px;
-}
-.buyBigButton2 {
-    width: 141px;
-    height: 46px;
-    border-radius: 23px 23px 23px 23px;
-    background-color: rgba(77, 222, 217, 1);
-    color: rgba(255, 255, 255, 1);
-    border: 0;
-    font-size: 13px;
-    font-family: Segoe UI, Bold;
-    cursor: pointer;
-    display: 
+    font-size: 14px;
 }
 
+.fa.fa-navicon {
+    color: white;
+}
 
+.partnerHover img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+}
+/* Responsive Design */
+
+@media (max-width: 800px) {
+    /* footer */
+    #footer {
+        margin-top: 100px;
+    }
+    .footer-div1 {
+        background: #F1F1F1;
+        height: auto;
+        padding: 70px 16px;
+    }
+    .footer-img {
+        padding: 0px;
+    }
+    .footer-div2 {
+        height: auto;
+        padding: 70px 15px;
+    }
+
+}
