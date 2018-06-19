@@ -482,6 +482,7 @@ body {
         padding-bottom: 10px;
         margin: 0 auto;
         display: block;
+        font-family: 'Bebas';
 }
 
 /* Footer */
@@ -491,7 +492,7 @@ textarea {
 }
 
 #footer {
-    margin-top: 100px;
+    margin-top: 0;
 }
 
 .footer-img {
@@ -571,7 +572,7 @@ textarea {
 @media (max-width: 800px) {
     /* footer */
     #footer {
-        margin-top: 100px;
+        margin-top: 0;
     }
     .footer-div1 {
         background: #F1F1F1;
@@ -586,4 +587,57 @@ textarea {
         padding: 70px 15px;
     }
 
+}
+.contactBannerContainer {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/banner/contact.jpg);
+    background-size: cover; 
+}
+.contactColor {
+    background: rgba(11, 74, 109, 0.7);
+    height: 70vh;
+    max-height: inherit;
+    width: 100%;
+}
+.mapContainer {
+    width: 100%;
+    height: inherit;
+}
+.mapArea {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #999;
+    margin-top: 40px;
+}
+.intro2 > button {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        font-family: 'Bebas';
+}
+.aboutBannerContainer {
+    width: 100%;
+    min-height: 120vh;
+    max-height: inherit;
+    background-image: url(../images/banner/about.jpeg);
+    background-size: cover; 
+}
+.aboutBannerColor {
+    background: rgba(23, 39, 52, 0.7);
+    min-height: 120vh;
+    max-height: inherit;
+    width: 100%;
+}
+.largeText {
+    width: 100%;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Bebas';
+    font-size: 40px;
+    text-transform: uppercase;
 }

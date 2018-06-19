@@ -19,16 +19,16 @@
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="#">ABOUT US</a>
+                      <a class="nav-link" href="about.php">ABOUT US</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="project.php">PROJECTS</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index.php#footer">CONTACT US</a>
+                      <a class="nav-link" href="contact.php">CONTACT US</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link quote" href="#"data-toggle="modal" data-target="#hireUs">HIRE US</a>
+                      <a class="nav-link quote" href="#" data-toggle="modal" data-target="#hireUs">HIRE US</a>
                     </li>
                   </ul>
                   
