@@ -207,7 +207,7 @@
         </div>
 
         <div class="hireDiv">
-          <button type="button" class="btn btn-light"data-toggle="modal" data-target="#hireUs">Hire Us</button>
+          <button type="button" class="btn btn-light"data-toggle="modal" data-target="#hireUs">Hire Us Now</button>
         </div> 
 
         </div>
