@@ -20,9 +20,14 @@
 
                   </div>
 
+
                   
-                  <div class="waveDiv">
-                    <img src="images/ico-wave.svg">
+                  <a href="#" class="nextArrow" >
+                    <i class="fas fa-briefcase"></i>
+                  </a>
+
+                  <div class="smallMidText">
+                    Oremit Ventures Limited is an innovative company that provides cutting-edge and state-of-the-art  power, security, funiture, oil and gas solutions that are cost-effective, scalable, secure and ingenious to improve your business and enable you to achieve your goals. 
                   </div>
 
               </div>

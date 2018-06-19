@@ -621,14 +621,14 @@ textarea {
 }
 .aboutBannerContainer {
     width: 100%;
-    min-height: 120vh;
+    min-height: 80vh;
     max-height: inherit;
     background-image: url(../images/banner/about.jpeg);
     background-size: cover; 
 }
 .aboutBannerColor {
     background: rgba(23, 39, 52, 0.7);
-    min-height: 120vh;
+    min-height: 80vh;
     max-height: inherit;
     width: 100%;
 }
@@ -640,4 +640,13 @@ textarea {
     font-family: 'Bebas';
     font-size: 40px;
     text-transform: uppercase;
+}
+.smallMidText {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    color: rgba(255, 255, 255, .7);
+    font-family: Avenir;
+    margin: 0 auto;
+    text-align: center;
 }
