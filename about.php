@@ -1,3 +1,11 @@
+<?php
+  
+  $pageTitle = ".::About Us - We're innovative, excellence Driven and custormer's choice driven";
+  $about = 'active';
+  $pageDescription = "";
+  $pageKeywords = "";
+
+?>
 <?php require 'layout/header.php' ?>
     
 <div class="oremitContainer">

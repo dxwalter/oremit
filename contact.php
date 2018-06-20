@@ -1,3 +1,11 @@
+<?php
+  
+  $pageTitle = ".::We'd Love to talk";
+  $contact = 'active';
+  $pageDescription = "";
+  $pageKeywords = "";
+
+?>
 <?php require 'layout/header.php' ?>
 
 <div class="oremitContainer">

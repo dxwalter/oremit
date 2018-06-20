@@ -10,13 +10,13 @@
                             <div id="response2" class="col-md-12 contact-div"></div>
 
                             <div class="col-md-6 contact-div">
-                                <input type="text" class="form-control contact"id="mail_fname" placeholder="Name " name="Name" required>
+                                <input type="text" class="form-control contact"id="mail_fname" placeholder="Name " name="Name" >
                             </div>
                             <div class="col-md-6 contact-div">
-                                <input type="email" class="form-control contact" id="mail_email" placeholder="E-mail " name="E-mail" required>
+                                <input type="text" class="form-control contact" id="contactDetails" placeholder="Email or Phone number " name="contact">
                             </div>
                             <div class="col-md-12 contact-div">
-                                <textarea class="form-control contact" rows="4" id="mail_msg" name="message" placeholder="Message" required></textarea>
+                                <textarea class="form-control contact" rows="4" id="mail_msg" name="message" placeholder="Message" ></textarea>
                             </div>
                             <div class="col-md-12 contact-div" align="right">
                                 <button type="button"  class="btn btn-primary" onclick="send_mail()">Submit</button>
@@ -101,16 +101,37 @@
         <form action="" method="post">
             <div class="row">
 
-                <div id="response2" class="col-md-12 contact-div"></div>
+                <div id="response1" class="col-md-12 contact-div"></div>
 
                 <div class="col-md-6 contact-div">
-                    <input type="text" class="form-control"id="mail_fname" placeholder="Name " name="Name" required>
+                    <input type="text" class="form-control" id="quoteName" placeholder="Full names" name="Name">
                 </div>
                 <div class="col-md-6 contact-div">
-                    <input type="email" class="form-control" id="mail_email" placeholder="E-mail " name="E-mail" required>
+                    <input type="email" class="form-control" id="quoteContact" placeholder="E-mail or Phone Number" name="contact">
                 </div>
+
+               <div class="col-md-6 contact-div">
+                    <select class="form-control" id="quoteService">
+                      <option selected="true" value="">Select a Service</option>
+                      <option value="Solar Power">Solar Panel</option>
+                      <option value="Surveillance Camera">Surveillance Camera</option>
+                      <option value="Inverter and Batteries">Inverter and Batteries</option>
+                      <option value="Office Equipments">Office Equipments</option>
+                      <option value="Oil and Gas">Oil and Gas</option>
+                    </select>
+                </div>
+                <div class="col-md-6 contact-div">
+                    <select class="form-control" id="quoteBudget">
+                      <option selected="true" value="">Choose a Budget</option>
+                      <option value="₦0 - #100,000">₦0 - #100,000</option>
+                      <option value="₦100,000 - #500,000">₦100,000 - #500,000</option>
+                      <option value="₦500,000 - #1,000,000">₦500,000 - #1,000,000</option>
+                      <option value="₦1,000,000+">₦1,000,000+</option>
+                    </select>
+                </div>
+
                 <div class="col-md-12 contact-div">
-                    <textarea class="form-control" rows="4" id="mail_msg" name="message" placeholder="Message" required></textarea>
+                    <textarea class="form-control" rows="4" id="quoteMessage" name="message" placeholder="Briefly explain your need" required></textarea>
                 </div>
                 
             </div>
@@ -118,7 +139,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" onclick="send_mail()">Submit</button>
+        <button type="button" class="btn btn-primary" onclick="quoteMail()">Submit</button>
       </div>
     </div>
   </div>

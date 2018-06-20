@@ -11,14 +11,14 @@
                   <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
-                      <a class="nav-link" href=index.php>Home</a>
+                      <a class="nav-link" href="index.php">Home</a>
                     </li>
 
                      <li class="nav-item">
-                      <a class="nav-link" href=index.php#services>SERVICES</a>
+                      <a class="nav-link" href="services.php">SERVICES</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item colorit">
                       <a class="nav-link" href="about.php">ABOUT US</a>
                     </li>
                     <li class="nav-item">

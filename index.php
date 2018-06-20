@@ -1,3 +1,12 @@
+<?php
+  
+  $pageTitle = ".::Oremit - We provide Sustainable Electric Power, Security solutions";
+  $index = 'active';
+  $pageDescription = "";
+  $pageKeywords = "";
+
+?>
+
 <?php require 'layout/header.php' ?>
     
 <div class="oremitContainer">
