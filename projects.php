@@ -1,7 +1,7 @@
 <?php
   
   $pageTitle = ".::Oremit - We provide Sustainable Electric Power, Security solutions";
-  $index = 'active';
+  $project = 'active';
   $pageDescription = "";
   $pageKeywords = "";
 
@@ -12,45 +12,31 @@
 <div class="oremitContainer">
   
 
-    <section id="banner">
-      <div class="bannerContainer">
-        <div class="bannerColor">
+<section id="banner">
+      <div class="contactBannerContainer">
+        <div class="contactColor">
           <div class="bannerContent">
 
             <?php require 'layout/nav.php' ?>
-        
-              <div class="col-md-12 intro-body">
+
+             <div class="col-md-12 intro-body">
                   <div class="col-md-12 intro1">
-                      <div class="col-md-12 btext">Power solutions that</div>
+                      <div class="col-md-12 btext">WE KNOW YOU NEED </div>
                       <div class="col-md-12 btext">
-                          <div class="btext ">put you ahead in</div>
-                          <div class="btext colorit hidden-sm hidden-xs">&nbsp;
-                            <span id="bubble">
-                            
-                            </span>
-                        </div>
-                          <div class="btext2 col-md-12 colorit visible-sm visible-xs"><span id="bubble2"></span>
-                          </div>
+                          <div class="btext "> A <span class="colorit">RELIABLE</span> PARTNER</div>
+                          
                       </div>
                   </div>
 
-                  <div class="waveDiv">
-                    <img src="images/ico-wave.svg">
-                  </div>
-
                   <div class="intro2">
-                      We Deliver sustainable and affordable power &amp; security solutions for your home and business
+                      <button type="button" class="btn btn-light"data-toggle="modal" data-target="#hireUs">Hire Us</button>
                   </div>
-
-                  <a href="#" class="nextArrow" id="moveNext">
-                    <i class="fa fa-chevron-down"></i>
-                  </a>
               </div>
 
             </div>
-
-          </div>
-        </section>
+        </div>
+    </div>
+</section>
 
 
 

@@ -11,21 +11,21 @@
                   <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
-                      <a class="nav-link" href="index.php">Home</a>
+                      <a class="nav-link <?php if (isset($index)) {echo 'active'; }?>" href="index.php">Home</a>
                     </li>
 
                      <li class="nav-item">
-                      <a class="nav-link" href="services.php">SERVICES</a>
+                      <a class="nav-link <?php if (isset($service)) {echo 'active'; }?>"" href="index.php#services">SERVICES</a>
                     </li>
 
-                    <li class="nav-item colorit">
-                      <a class="nav-link" href="about.php">ABOUT US</a>
+                    <li class="nav-item">
+                      <a class="nav-link <?php if (isset($about)) {echo 'active'; }?>" href="about.php">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="project.php">PROJECTS</a>
+                      <a class="nav-link <?php if (isset($project)) {echo 'active'; }?>" href="project.php">PROJECTS</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contact.php">CONTACT US</a>
+                      <a class="nav-link <?php if (isset($contact)) {echo 'active'; }?>" href="contact.php">CONTACT US</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link quote" href="#" data-toggle="modal" data-target="#hireUs">HIRE US</a>
