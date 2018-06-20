@@ -15,7 +15,7 @@
                     </li>
 
                      <li class="nav-item">
-                      <a class="nav-link <?php if (isset($service)) {echo 'active'; }?>"" href="index.php#services">SERVICES</a>
+                      <a class="nav-link <?php if (isset($service)) {echo 'active'; }?>" href="index.php#services">SERVICES</a>
                     </li>
 
                     <li class="nav-item">

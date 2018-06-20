@@ -1,35 +1,33 @@
 <?php
   
-  $pageTitle = ".::Oremit - We provide Sustainable Electric Power, Security solutions";
+  $pageTitle = ".:Projects By Oremit";
   $project = 'active';
-  $pageDescription = "";
-  $pageKeywords = "";
-
+  $pageDescription = "Oremit Ventures Limited is an innovative company that provides cutting-edge and state-of-the-art  power, security, funiture, oil and gas solutions that are cost-effective, scalable, secure and ingenious to improve your business and enable you to achieve your goals."; 
 ?>
 
 <?php require 'layout/header.php' ?>
-    
+<link href="css/popUp.css" rel="stylesheet">
 <div class="oremitContainer">
   
 
 <section id="banner">
-      <div class="contactBannerContainer">
-        <div class="contactColor">
+      <div class="projectBannerContainer">
+        <div class="projectBannerColor">
           <div class="bannerContent">
 
             <?php require 'layout/nav.php' ?>
 
              <div class="col-md-12 intro-body">
                   <div class="col-md-12 intro1">
-                      <div class="col-md-12 btext">WE KNOW YOU NEED </div>
+                      <div class="col-md-12 btext">Projects Delivered.</div>
                       <div class="col-md-12 btext">
-                          <div class="btext "> A <span class="colorit">RELIABLE</span> PARTNER</div>
+                          <div class="btext "> We're <span class="colorit">Capable</span> &amp; <span class="colorit">RELIABLE</span></div>
                           
                       </div>
                   </div>
 
-                  <div class="intro2">
-                      <button type="button" class="btn btn-light"data-toggle="modal" data-target="#hireUs">Hire Us</button>
+                  <div class="intro3">
+                      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#hireUs">Hire Us</button>
                   </div>
               </div>
 
@@ -41,117 +39,153 @@
 
 
   <section id="services">
-      <div class="serviceContainer">
-        <div class="headerImg"><img src="images/headerImg.png"></div>
-        <div class="serviceHeader">
-            OUR SERVICES
-        </div>
-        <div class="headerTitle">Services Designed For your benefit</div>
-
-        <div class="serviceTypeContainer">
-          
-          <div class="fullWidth">
-            <div class="row">
-              <div class="col-md-8 mainContainer">
-                  <div class="solarImage imageDiv">
-                      <div class="opacityLayer1 opacityMajor">
-                          <div class="col-md-12 serviceContentHeader">
-                              A cost effective, solar Panel
-                          </div>
-                          <div class="col-md-12 minorText">
-                             Providing a sustainable renewable power solution for businesses, homes and for public consumption. Our solar power solution is the best of its kinds
-                            </div>
-                            <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
-                                View projects
-                              </a>
-                            </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-4 mainContainer">
-                  <div class="inverterImage imageDiv">
-                      <div class="opacityLayer2 opacityMajor">
-                          <div class="col-md-12 serviceContentHeader">
-                              Inverter, UPS &amp; Battery System
-                          </div>
-                          <div class="col-md-12 minorText2">
-                             When you think of innovative ways to design a temporary power storage system for your home and business, our inverter and UPS system will meet your need
-                            </div>
-                            <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
-                                View projects
-                              </a>
-                            </div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-
-            <div class="row">
-
-              <div class="col-md-4 mainContainer">
-                  <div class="cctvCameraImg imageDiv">
-                      <div class="opacityLayer4 opacityMajor">
-                          <div class="col-md-12 serviceContentHeader">
-                              Surveillance Camera
-                          </div>
-                          <div class="col-md-12 minorText2">
-                             When we think of security, we don't just consider your business and your home. Our surveillance cameras system is affordable and efficient
-                            </div>
-                            <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
-                                View projects
-                              </a>
-                            </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-md-8 mainContainer">
-                  <div class="officeEquipment imageDiv">
-                      <div class="opacityLayer3 opacityMajor">
-                          <div class="col-md-12 serviceContentHeader">
-                              Office Equipment
-                          </div>
-                          <div class="col-md-12 minorText">
-                             To improve work place experience, our furniture service meets state of the art standard to give excellent productivity in work place.
-                            </div>
-                            <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
-                                View projects
-                              </a>
-                            </div>
-                      </div>
-                  </div>
-              </div>
-
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 mainContainer">
-                  <div class="oilGas imageDiv">
-                      <div class="opacityLayer5 opacityMajor">
-                          <div class="col-md-12 serviceContentHeader">
-                              Oil &amp; Gas
-                          </div>
-                          <div class="col-md-12 minorText3">
-                             If you’re looking for high quality, low price domestic, or home heating oil (kerosene), diesel fuel for industry or red diesel for agricultural and off-road plant and machinery, then you’ve come to the right place
-                            </div>
-                            <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
-                                View projects
-                              </a>
-                            </div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-
+    
+      <div class="serviceContainer2">
+                  <div class="partnerIcon">
+            <i class="fas fa-project-diagram"></i>
           </div>
+          <div class="headerTitle">Our Marks Of Excellence</div>
+      
 
+        <div class="fullWidth">
+            <div class="row gallery">
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (1).jpg">
+                <img src="images/projects/1 (1).jpg" title="Oremit Street Light Poles">
+            </a>
         </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (2).jpg">
+                <img src="images/projects/1 (2).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (3).jpg">
+                <img src="images/projects/1 (3).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (4).jpg">
+                <img src="images/projects/1 (4).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (5).jpg">
+                <img src="images/projects/1 (5).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (6).jpg">
+                <img src="images/projects/1 (6).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (7).jpg">
+                <img src="images/projects/1 (7).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (8).jpg">
+                <img src="images/projects/1 (8).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (9).jpg">
+                <img src="images/projects/1 (9).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (11).jpg">
+                <img src="images/projects/1 (11).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (12).jpg">
+                <img src="images/projects/1 (12).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (13).jpg">
+                <img src="images/projects/1 (13).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (14).jpg">
+                <img src="images/projects/1 (14).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (15).jpg">
+                <img src="images/projects/1 (15).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (16).jpg">
+                <img src="images/projects/1 (16).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (17).jpg">
+                <img src="images/projects/1 (17).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (18).jpg">
+                <img src="images/projects/1 (18).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (19).jpg">
+                <img src="images/projects/1 (19).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (20).jpg">
+                <img src="images/projects/1 (20).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (21).jpg">
+                <img src="images/projects/1 (21).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (23).jpg">
+                <img src="images/projects/1 (23).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+    <div class="col-md-3 imageLayer">
+      <a href="images/projects/1 (24).jpg">
+                <img src="images/projects/1 (24).jpg" title="Oremit Street Light Poles">
+            </a>
+        </div>
+  
+
+            </div>
+        </div>
+
 
       </div>
 
@@ -202,7 +236,7 @@
         </div>
 
         <div class="hireDiv">
-          <button type="button" class="btn btn-light"data-toggle="modal" data-target="#hireUs">Hire Us</button>
+          <button type="button" class="btn btn-light" data-toggle="modal" data-target="#hireUs">Hire Us</button>
         </div> 
 
         </div>
@@ -260,6 +294,34 @@
     }, 1000);
     console.log("contact");
 });
+</script>
+
+<script type="text/javascript" src="js/popUp.js"></script>
+
+<script type="text/javascript">
+  
+$(document).ready(function() {
+    $('.gallery').magnificPopup({
+
+          delegate: 'a',
+          type: 'image',
+          tLoading: 'Loading image #%curr%...',
+          mainClass: 'mfp-img-mobile',
+          gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+          },
+
+          image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            titleSrc: function(item) {
+              return item.el.attr('title');
+            }
+          }
+    });
+});
+
 </script>
 
   </body>

@@ -48,14 +48,6 @@
                   +234 80 3707 3110 </a>
                 </div>
 
-
-                <div>
-                  <a href="tel:234 80 3707 3110">
-                    <i class="fa fa-phone-square"></i> 
-                    +234 80 6665 0378
-                  </a>
-                </div>
-
                 <div>
                   <a href="#">
                     <i class="fa fa-envelope"></i> 
@@ -123,9 +115,9 @@
                 <div class="col-md-6 contact-div">
                     <select class="form-control" id="quoteBudget">
                       <option selected="true" value="">Choose a Budget</option>
-                      <option value="₦0 - #100,000">₦0 - #100,000</option>
-                      <option value="₦100,000 - #500,000">₦100,000 - #500,000</option>
-                      <option value="₦500,000 - #1,000,000">₦500,000 - #1,000,000</option>
+                      <option value="₦0 - #100,000">₦0 - ₦100,000</option>
+                      <option value="₦100,000 - ₦500,000">₦100,000 - ₦500,000</option>
+                      <option value="₦500,000 - ₦1,000,000">₦500,000 - ₦1,000,000</option>
                       <option value="₦1,000,000+">₦1,000,000+</option>
                     </select>
                 </div>

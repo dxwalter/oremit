@@ -29,8 +29,7 @@ class sendEmail extends emailUiClass {
 if (isset($_POST) && isset($_POST["msgType"])) {
 
 	$messageType = $_POST["msgType"];
-	// $receiver = "patex112@gmail.com";
-	$receiver = "theceoforlife@gmail.com";
+	$receiver = "patex112@gmail.com";
 
 	if ($messageType == "contact") {
 
@@ -47,7 +46,7 @@ if (isset($_POST) && isset($_POST["msgType"])) {
 		$budget = $_POST["budget"];
 		$message = $_POST["message"];
 		$message = $service."<br> <br> ".$message."<br> <br>".$budget;
-		$messageSubject = "Client requote message";
+		$messageSubject = "Client Quotation Request";
 	}
 
 	$sendMessage = new sendEmail ($contact, $receiver, $messageSubject, $message, $name);

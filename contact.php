@@ -2,8 +2,7 @@
   
   $pageTitle = ".::We'd Love to talk";
   $contact = 'active';
-  $pageDescription = "";
-  $pageKeywords = "";
+  $pageDescription = "Oremit Ventures Limited is an innovative company that provides cutting-edge and state-of-the-art  power, security, funiture, oil and gas solutions that are cost-effective, scalable, secure and ingenious to improve your business and enable you to achieve your goals. ";
 
 ?>
 <?php require 'layout/header.php' ?>

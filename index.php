@@ -1,10 +1,7 @@
 <?php
-  
   $pageTitle = ".::Oremit - We provide Sustainable Electric Power, Security solutions";
   $index = 'active';
-  $pageDescription = "";
-  $pageKeywords = "";
-
+  $pageDescription = "Oremit Ventures Limited is an innovative company that provides cutting-edge and state-of-the-art  power, security, funiture, oil and gas solutions that are cost-effective, scalable, secure and ingenious to improve your business and enable you to achieve your goals. ";
 ?>
 
 <?php require 'layout/header.php' ?>
@@ -76,7 +73,7 @@
                              Providing a sustainable renewable power solution for businesses, homes and for public consumption. Our solar power solution is the best of its kinds
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
+                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
                                 View projects
                               </a>
                             </div>
@@ -94,7 +91,7 @@
                              When you think of innovative ways to design a temporary power storage system for your home and business, our inverter and UPS system will meet your need
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
+                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
                                 View projects
                               </a>
                             </div>
@@ -115,7 +112,7 @@
                              When we think of security, we don't just consider your business and your home. Our surveillance cameras system is affordable and efficient
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
+                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
                                 View projects
                               </a>
                             </div>
@@ -133,7 +130,7 @@
                              To improve work place experience, our furniture service meets state of the art standard to give excellent productivity in work place.
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
+                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
                                 View projects
                               </a>
                             </div>
@@ -154,7 +151,7 @@
                              If you’re looking for high quality, low price domestic, or home heating oil (kerosene), diesel fuel for industry or red diesel for agricultural and off-road plant and machinery, then you’ve come to the right place
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" class="btn btn-outline-light btn-sm">
+                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
                                 View projects
                               </a>
                             </div>
