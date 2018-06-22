@@ -22,7 +22,7 @@
                       <a class="nav-link <?php if (isset($about)) {echo 'active'; }?>" href="about.php">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link <?php if (isset($project)) {echo 'active'; }?>" href="project.php">PROJECTS</a>
+                      <a class="nav-link <?php if (isset($project)) {echo 'active'; }?>" href="projects.php">PROJECTS</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link <?php if (isset($contact)) {echo 'active'; }?>" href="contact.php">CONTACT US</a>

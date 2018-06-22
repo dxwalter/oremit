@@ -67,14 +67,14 @@
                   <div class="solarImage imageDiv">
                       <div class="opacityLayer1 opacityMajor">
                           <div class="col-md-12 serviceContentHeader">
-                              A cost effective, solar Panel
+                              A cost effective, solar System
                           </div>
                           <div class="col-md-12 minorText">
                              Providing a sustainable renewable power solution for businesses, homes and for public consumption. Our solar power solution is the best of its kinds
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
-                                View projects
+                              <a href="projects.php?solar" target="_blank" class="btn btn-outline-light btn-sm">
+                                View More
                               </a>
                             </div>
                       </div>
@@ -85,14 +85,14 @@
                   <div class="inverterImage imageDiv">
                       <div class="opacityLayer2 opacityMajor">
                           <div class="col-md-12 serviceContentHeader">
-                              Inverter, UPS &amp; Battery System
+                              Inverter, UPS &amp; Battery
                           </div>
                           <div class="col-md-12 minorText2">
                              When you think of innovative ways to design a temporary power storage system for your home and business, our inverter and UPS system will meet your need
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
-                                View projects
+                              <a href="projects.php?battery" target="_blank" class="btn btn-outline-light btn-sm">
+                                View more
                               </a>
                             </div>
                       </div>
@@ -112,8 +112,8 @@
                              When we think of security, we don't just consider your business and your home. Our surveillance cameras system is affordable and efficient
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
-                                View projects
+                              <a href="projects.php?furniture" target="_blank" class="btn btn-outline-light btn-sm">
+                                View more
                               </a>
                             </div>
                       </div>
@@ -131,7 +131,7 @@
                             </div>
                             <div class="buttonArea">
                               <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
-                                View projects
+                                View more
                               </a>
                             </div>
                       </div>
@@ -152,7 +152,7 @@
                             </div>
                             <div class="buttonArea">
                               <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
-                                View projects
+                                View more
                               </a>
                             </div>
                       </div>
