@@ -19,7 +19,7 @@
 
              <div class="col-md-12 intro-body">
                   <div class="col-md-12 intro1">
-                      <div class="col-md-12 btext">Projects Delivered.</div>
+                      <div class="col-md-12 btext">Services Delivered.</div>
                       <div class="col-md-12 btext">
                           <div class="btext "> We're <span class="colorit">Capable</span> &amp; <span class="colorit">RELIABLE</span></div>
                           
@@ -41,147 +41,33 @@
   <section id="services">
     
       <div class="serviceContainer2">
-                  <div class="partnerIcon">
-            <i class="fas fa-project-diagram"></i>
+          <div class="partnerIcon">
+            <i class="fas fa-check-circle"></i>
           </div>
-          <div class="headerTitle">Our Marks Of Excellence</div>
+          <div class="headerTitle">
+            <?php
+
+              if (isset($_GET["solar"])) {
+                echo "Solar Systems";
+              } else if (isset($_GET["battery"])) {
+                echo "Inverter, Battery & UPS";
+              } else if (isset($_GET["camera"])) {
+                echo "Surveillance Camera's (CCTV)";
+              } else if (isset($_GET["office"])) {
+                echo "Home & Office Furnitures";
+              } else if (isset($_GET["oil"])) {
+                echo "Oil and Gas Service";
+              } else echo "Our Marks Of Excellence";
+
+            ?>
+      </div>
       
 
         <div class="fullWidth">
             <div class="row gallery">
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (1).jpg">
-                <img src="images/projects/1 (1).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (2).jpg">
-                <img src="images/projects/1 (2).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (3).jpg">
-                <img src="images/projects/1 (3).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (4).jpg">
-                <img src="images/projects/1 (4).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (5).jpg">
-                <img src="images/projects/1 (5).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (6).jpg">
-                <img src="images/projects/1 (6).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (7).jpg">
-                <img src="images/projects/1 (7).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (8).jpg">
-                <img src="images/projects/1 (8).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (9).jpg">
-                <img src="images/projects/1 (9).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (11).jpg">
-                <img src="images/projects/1 (11).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (12).jpg">
-                <img src="images/projects/1 (12).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (13).jpg">
-                <img src="images/projects/1 (13).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (14).jpg">
-                <img src="images/projects/1 (14).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (15).jpg">
-                <img src="images/projects/1 (15).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (16).jpg">
-                <img src="images/projects/1 (16).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (17).jpg">
-                <img src="images/projects/1 (17).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (18).jpg">
-                <img src="images/projects/1 (18).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (19).jpg">
-                <img src="images/projects/1 (19).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (20).jpg">
-                <img src="images/projects/1 (20).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (21).jpg">
-                <img src="images/projects/1 (21).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (23).jpg">
-                <img src="images/projects/1 (23).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
-    <div class="col-md-3 imageLayer">
-      <a href="images/projects/1 (24).jpg">
-                <img src="images/projects/1 (24).jpg" title="Oremit Street Light Poles">
-            </a>
-        </div>
-  
+            
+              <?php require 'layout/solar.php'; ?>
+              <?php require 'layout/ups.php'; ?>
 
             </div>
         </div>

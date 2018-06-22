@@ -803,5 +803,11 @@ textarea {
     font-family: "Bebas";
   }
 }
+.serviceContentHeader2 {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+}
 
 /*# sourceMappingURL=app.css.map */

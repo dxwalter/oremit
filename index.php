@@ -112,7 +112,7 @@
                              When we think of security, we don't just consider your business and your home. Our surveillance cameras system is affordable and efficient
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php?furniture" target="_blank" class="btn btn-outline-light btn-sm">
+                              <a href="projects.php?camera" target="_blank" class="btn btn-outline-light btn-sm">
                                 View more
                               </a>
                             </div>
@@ -130,7 +130,7 @@
                              To improve work place experience, our furniture service meets state of the art standard to give excellent productivity in work place.
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
+                              <a href="projects.php?office" target="_blank" class="btn btn-outline-light btn-sm">
                                 View more
                               </a>
                             </div>
@@ -151,7 +151,7 @@
                              If you’re looking for high quality, low price domestic, or home heating oil (kerosene), diesel fuel for industry or red diesel for agricultural and off-road plant and machinery, then you’ve come to the right place
                             </div>
                             <div class="buttonArea">
-                              <a href="projects.php" target="_blank" class="btn btn-outline-light btn-sm">
+                              <a href="projects.php?oil" target="_blank" class="btn btn-outline-light btn-sm">
                                 View more
                               </a>
                             </div>
