@@ -52,7 +52,7 @@
               } else if (isset($_GET["battery"])) {
                 echo "Inverter, Battery & UPS";
               } else if (isset($_GET["camera"])) {
-                echo "Surveillance Camera's (CCTV)";
+                echo "Surveillance Cameras (CCTV)";
               } else if (isset($_GET["office"])) {
                 echo "Home & Office Furnitures";
               } else if (isset($_GET["oil"])) {
@@ -68,6 +68,9 @@
             
               <?php require 'layout/solar.php'; ?>
               <?php require 'layout/ups.php'; ?>
+              <?php require 'layout/furniture.php'; ?>
+              <?php require 'layout/cctv.php'; ?>
+              <?php require 'layout/oil.php'; ?>
 
             </div>
         </div>
